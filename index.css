@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+* {
+  margin-top: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(libook.jpg);
+  background-repeat: no-repeat;
+  background-position: in;
+  background-size: cover;
+}
+.container {
+  position: absolute;
+  top: 21%;
+  left: 43%;
+  height: fit-content;
+  margin: 2px auto;
+  width: 186px;
+}
+.box {
+  font-family: "Roboto Slab", serif;
+  font-size: 34px;
+  color: rgb(178, 190, 142);
+  display: inline-block;
+  margin: 10px 1px;
+
+  border-bottom: 2px solid red;
+}
+
+.myInput {
+  margin: 16px 2px;
+  padding: 8px 0px;
+  text-align: center;
+  border-bottom: 2px solid rgb(165, 71, 37);
+}
+
+.myInput i {
+  color: rgb(15 140 155);
+  width: 17px;
+  text-align: center;
+}
+.myInput input {
+  width: 85%;
+  background: none;
+opacity: .5;
+}
+
+.btn {
+  border-radius: 15px;
+  margin: 14px 1px;
+  padding: 3px 9px;
+  color: #916565;
+  background-color:rgb(66, 63, 63);
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(148, 162, 163);
+}
+
+.con h1 {
+    color: darkgoldenrod;
+    font-family: "Roboto Slab", serif;
+    border-bottom: 3px solid grey;
+    display: inline;
+    /* width: 70%; */
+    margin: auto;
+    position: absolute;
+    left: 38%;
+    top: 3%;
+}
+@media  only screen and (max-width:600px) {
+    body
+    {
+      
+    }   
+}
